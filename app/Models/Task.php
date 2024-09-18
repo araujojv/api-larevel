@@ -10,5 +10,6 @@ class Task extends Model
     use HasFactory;
 
     // Adicionar os campos que podem ser preenchidos via Mass Assignment
-    protected $fillable = ['titulo', 'descricao'];
+    protected $fillable = ['title', 'description'];
 }
+
